@@ -16,19 +16,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        start =  findViewById(R.id.start);
-        reverse = findViewById(R.id.reverse);
-        animationView = findViewById(R.id.playAndPauseView);
-        start.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View param1View) {
-                animationView.animationStart();
-            }
-        });
-        reverse.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View param1View) {
-                animationView.animationReverse();
-            }
-        });
+//        start =  findViewById(R.id.start);
+//        reverse = findViewById(R.id.reverse);
+//        animationView = findViewById(R.id.playAndPauseView);
+//        start.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View param1View) {
+//                animationView.animationStart();
+//            }
+//        });
+//        reverse.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View param1View) {
+//                animationView.animationReverse();
+//            }
+//        });
     }
 }
 
